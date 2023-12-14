@@ -1,0 +1,31 @@
+.card {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.imgContainer {
+  width: 60px;
+  height: 60px;
+  background-color: #e3e2fd;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
