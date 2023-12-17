@@ -46,7 +46,7 @@ const App = () => {
           />
         </Routes>
         <Guide />
-        <Footer />
+        <Footer data={navLinks} />
       </Router>
     </div>
   );

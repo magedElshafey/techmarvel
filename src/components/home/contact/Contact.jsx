@@ -11,8 +11,8 @@ const Contact = ({ data }) => {
       <p className={`fs-3 m-0 p-0 mb-3 text-center fw-bolder ${style.title}`}>
         {t("page")}
       </p>
-      <div className="row justify-content-center">
-        <div className="col-11">
+      <div className="row justify-content-between">
+        <div className="col-12">
           <div className="row gap-5 justify-content-center align-items-center my-4 ">
             {data.map((item, index) => (
               <div

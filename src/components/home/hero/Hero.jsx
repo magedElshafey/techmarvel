@@ -24,7 +24,6 @@ const Hero = () => {
               {t("page")}
             </a>
           </button>
-          <p className="m-0 p-0 text-black-50">{t("trusted ")}</p>
         </div>
       </div>
     </div>
