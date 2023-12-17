@@ -1,0 +1,68 @@
+.mainDiv {
+    width: 100vw;
+    background-image: url('../../../assets/servBg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+.title {
+    color: var(--mainColor);
+    font-size: 35px;
+}
+@media screen and (max-width : 767px) {
+    .title {
+        font-size: 25px;
+    }
+}
+.desc {
+    font-size: 25px;
+}
+@media screen and (max-width : 767px) {
+    .desc {
+        font-size: 18px;
+    }
+}
+.desc2 {
+    color: var(--mainColor);
+}
+.card {
+   height: 350px;
+    background-color: white !important;
+    width: 95% !important;
+    margin: auto !important;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.card:hover {
+ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.cardtitle::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    height: 3px;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--mainColor);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}

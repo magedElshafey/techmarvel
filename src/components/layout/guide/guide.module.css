@@ -1,0 +1,9 @@
+.mainContainer {
+    width: 100vw;
+  height: auto !important;
+  
+    display: flex;
+   align-items: center;
+    color: white;
+    background: linear-gradient(108deg, #2272FF 0%, #0D03C3 97.89%);
+}

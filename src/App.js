@@ -4,7 +4,9 @@ import { useTranslation } from "react-i18next";
 import AOS from "aos";
 import Home from "./pages/Home";
 import Nav from "./components/layout/nav/Nav";
-import { navLinks, partners, why } from "./data/data";
+import { navLinks, why, aboutUs, services, contact } from "./data/data";
+import Guide from "./components/layout/guide/Guide";
+import Footer from "./components/layout/footer/Footer.jsx";
 const App = () => {
   useEffect(() => {
     localStorage.setItem("lang", JSON.stringify(i18n.language));
@@ -31,8 +33,20 @@ const App = () => {
       <Router>
         <Nav data={navLinks} />
         <Routes>
-          <Route path="/" element={<Home partners={partners} why={why} />} />
+          <Route
+            path="/"
+            element={
+              <Home
+                why={why}
+                aboutUs={aboutUs}
+                services={services}
+                contact={contact}
+              />
+            }
+          />
         </Routes>
+        <Guide />
+        <Footer />
       </Router>
     </div>
   );

@@ -9,9 +9,12 @@ import "bootstrap/dist/js/bootstrap.min.js";
 import "aos/dist/aos.css";
 // i18next
 import "./i18n";
+// toaster
+import { Toaster } from "react-hot-toast";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <Toaster position="top-center" reverseOrder={false} />
     <App />
   </React.StrictMode>
 );

@@ -1,0 +1,21 @@
+.mainDiv {
+    background-color: var(--bgColor);
+}
+.mainImg {
+    max-width: 100%;
+    height: 350px;
+}
+.title {
+    font-size: 35px;
+}
+@media screen and (max-width : 767px) {
+    .title {
+        font-size: 18px;
+    }
+}
+
+.btn {
+    border: none;
+    padding: 12px;
+    background: linear-gradient(107deg, #2272FF 0%, #0D03C3 100%);
+}
